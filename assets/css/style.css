@@ -49,15 +49,16 @@ p{
 }
 .banner{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background:linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3)), url(../img/banners.jpg);
     background-size: 100% 100%;
    
 }
 .size1{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-color:orangered;
+    
 }
 .end-20{
     right: 9%;
@@ -151,6 +152,7 @@ p a{
 {
     .top-15{
         top: 0%;
+        width: auto;
     }
     .end-20{
         
@@ -175,5 +177,16 @@ p a{
         width: 50%;
     }
 }
-
+@media (min-width: 992px) {
+    .py-lg-3 {
+      padding-top: 2.2rem !important;
+      padding-bottom: 1rem !important;
+    }
+  }
+  @media (max-width: 992px){
+    .start-50 {
+        left: 52% !important;
+      }
+  }
+  
 /*Media Query Section End*/
